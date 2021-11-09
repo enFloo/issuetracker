@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# issuetracker
+Admins and employees can track bugs throughout each program
+>>>>>>> 61c295c6b4c9835612096f4b2fe7a67b0b09eda0
