@@ -1,0 +1,25 @@
+<div id="<%= dom_id issue %>" class="scaffold_record">
+  <p>
+    <strong>Title:</strong>
+    <%= issue.title %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= issue.description %>
+  </p>
+
+  <p>
+    <strong>Assigned to:</strong>
+    <%= issue.assigned_to %>
+  </p>
+
+  <p>
+    <strong>Client project:</strong>
+    <%= issue.client_project %>
+  </p>
+
+  <p>
+    <%= link_to "Show this issue", issue %>
+  </p>
+</div>
