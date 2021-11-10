@@ -31,6 +31,26 @@
     <%= form.text_field :client_project %>
   </div>
 
+  <div class="field">
+    <%= form.label :severity_level %>
+    <%= form.text_field :severity_level %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date_created %>
+    <%= form.datetime_local_field :date_created %>
+  </div>
+
+  <div class="field">
+    <%= form.label :resolve_status %>
+    <%= form.text_field :resolve_status %>
+  </div>
+
+  <div class="field">
+    <%= form.label :resolved_date %>
+    <%= form.datetime_local_field :resolved_date %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
