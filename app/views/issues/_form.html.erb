@@ -1,3 +1,4 @@
+<!-- <html> -->
 <%= form_with(model: issue) do |form| %>
   <% if issue.errors.any? %>
     <div id="error_explanation">
@@ -33,7 +34,7 @@
 
   <div class="field">
     <%= form.label :severity_level %>
-    <%= form.text_field :severity_level %>
+    <%= form.select(:severity_level, [['Low', 'low'], ['Medium', 'medium'], ['Urgent', 'urgent']]) %>
   </div>
 
   <div class="field">
@@ -43,7 +44,7 @@
 
   <div class="field">
     <%= form.label :resolve_status %>
-    <%= form.text_field :resolve_status %>
+    <%= form.select(:resolve_status, [['Unresolved', 'unresolved'], ['Resolved', 'resolved']]) %>
   </div>
 
   <div class="field">
